@@ -124,7 +124,7 @@ class ContactBook:
             # Error message in the event of empty list.
             print(Style.BRIGHT + Fore.RED + "The contact list is empty.")
 
-    #Missing DELETE contact functions
+    #Added Delete contact functions
 
     def delete_contact(self):
         # Same as before, self.contacts checks for content.
